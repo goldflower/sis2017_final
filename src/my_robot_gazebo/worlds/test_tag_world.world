@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name="tag1">
+      <pose>0 0 0.6  0 1.5708 1.5708</pose>
+      <static>true</static>
+      <link name="tag1_link">
+        <visual name="tag1_visual">
+          <geometry>
+            <mesh><uri>file://tag1.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="tag2">
+      <pose>2 0 0.6  0 1.5708 1.5708</pose>
+      <static>true</static>
+      <link name="tag2_link">
+        <visual name="tag2_visual">
+          <geometry>
+            <mesh><uri>file://tag2.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="tag3">
+      <pose>-2 0 0.6  0 1.5708 1.5708</pose>
+      <static>true</static>
+      <link name="tag3_link">
+        <visual name="tag3_visual">
+          <geometry>
+            <mesh><uri>file://tag3.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="tag4">
+      <pose>4 0 0.6  0 1.5708 1.5708</pose>
+      <static>true</static>
+      <link name="tag4_link">
+        <visual name="tag4_visual">
+          <geometry>
+            <mesh><uri>file://tag4.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

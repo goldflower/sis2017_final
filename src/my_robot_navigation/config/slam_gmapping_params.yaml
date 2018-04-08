@@ -1,0 +1,9 @@
+# Config file used by slam_gmapping
+# http://wiki.ros.org/gmapping#Parameters
+
+base_frame: base_footprint
+map_update_interval: 0.01
+delta: 0.05
+particles: 100
+minimumScore: 200
+angularUpdate: 0.01

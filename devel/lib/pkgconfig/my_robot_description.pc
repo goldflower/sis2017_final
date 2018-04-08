@@ -1,0 +1,8 @@
+prefix=/home/goldflower/navigation/devel
+
+Name: my_robot_description
+Description: Description of my_robot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/goldflower/navigation/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/goldflower/navigation/devel
+
+Name: my_robot_control
+Description: Description of my_robot_control
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/goldflower/navigation/devel/lib 
+Requires: controller_manager hardware_interface roscpp trajectory_msgs
